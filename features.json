@@ -110,7 +110,7 @@
           "fs": 100
         },
         "n_features": 1,
-        "use": "yes",
+        "use": "no",
         "tag": "audio"
       },
       "Spectral decrease": {
@@ -152,7 +152,7 @@
           "fs": 100
         },
         "n_features": 1,
-        "use": "yes"
+        "use": "no"
       },
       "Spectral positive turning points": {
         "complexity": "log",
@@ -273,7 +273,7 @@
           "widths": "np.arange(1,3)"
         },
         "n_features": "widths",
-        "use": "yes",
+        "use": "no",
         "tag": "eeg"
       },
       "Wavelet variance": {
@@ -285,7 +285,7 @@
           "widths": "np.arange(1,3)"
         },
         "n_features": "widths",
-        "use": "yes",
+        "use": "no",
         "tag": "eeg"
       }
     },
@@ -308,7 +308,7 @@
           "d": 1
         },
         "n_features": "d",
-        "use": "yes"
+        "use": "no"
       },
       "ECDF Percentile": {
         "complexity": "log",
@@ -350,7 +350,7 @@
           "r": 1
         },
         "n_features": "nbins",
-        "use": "yes"
+        "use": "no"
       },
       "Interquartile range": {
         "complexity": "constant",
@@ -374,7 +374,7 @@
         "function": "tsfel.calc_max",
         "parameters": "",
         "n_features": 1,
-        "use": "yes"
+        "use": "no"
       },
       "Mean": {
         "complexity": "constant",
@@ -443,7 +443,7 @@
         "function": "tsfel.skewness",
         "parameters": "",
         "n_features": 1,
-        "use": "yes"
+        "use": "no"
       },
       "Standard deviation": {
         "complexity": "constant",
@@ -451,7 +451,7 @@
         "function": "tsfel.calc_std",
         "parameters": "",
         "n_features": 1,
-        "use": "yes"
+        "use": "no"
       },
       "Variance": {
         "complexity": "constant",
@@ -462,7 +462,7 @@
         "use": "yes"
       }
     },
-    "temporal": {
+    "Area under the curve": {
       "Area under the curve": {
         "complexity": "log",
         "description": "Computes the area under the curve of the signal computed with trapezoid rule.",
@@ -490,7 +490,7 @@
           "fs": 100
         },
         "n_features": 1,
-        "use": "yes"
+        "use": "no"
       },
       "Mean absolute diff": {
         "complexity": "constant",
@@ -558,7 +558,7 @@
         "function": "tsfel.distance",
         "parameters": "",
         "n_features": 1,
-        "use": "yes"
+        "use": "no"
       },
       "Slope": {
         "complexity": "log",
@@ -566,7 +566,7 @@
         "function": "tsfel.slope",
         "parameters": "",
         "n_features": 1,
-        "use": "yes"
+        "use": "no"
       },
       "Sum absolute diff": {
         "complexity": "constant",
